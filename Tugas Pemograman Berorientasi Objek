@@ -1,0 +1,21 @@
+class ModelKit{
+    String Merk;
+    String Seri; 
+    String Produksi;
+    String Size;
+}
+public class ObjectOrientedProgramming {
+    public static void main(String[] args) {
+        
+        ModelKit ModelKitku= new ModelKit();
+        ModelKitku.Merk="Star Build Srike";
+        ModelKitku.Seri="Gundam Build Figters";
+        ModelKitku.Produksi="BANDAI";
+        ModelKitku.Size="High Grade";
+                
+        System.out.println("Merk "+ModelKitku.Merk);
+        System.out.println("Seri "+ModelKitku.Seri );
+        System.out.println("Produksi "+ModelKitku.Produksi );
+        System.out.println("Siza "+ModelKitku.Size );
+    }
+}
